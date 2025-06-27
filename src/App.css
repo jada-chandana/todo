@@ -1,0 +1,51 @@
+.main-body {
+  background: #0052D4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+.todo-list-mainDiv {
+  background-color: white;
+  width: 500px;
+  height: 750px;
+  border-radius: 8px;
+}
+
+.todo-task-input-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+#add-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tasks-list {
+  width: 95%;
+  margin: auto;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.tasks-list li {
+  margin: 0px;
+}
+
+.task {}
+
+.task-buttons {
+  display: flex;
+  column-gap: 10px;
+}
